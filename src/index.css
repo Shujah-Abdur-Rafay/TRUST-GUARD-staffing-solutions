@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-black text-white antialiased;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .bg-logo-gradient {
+    background: linear-gradient(to bottom, #FFD700, #FF8C00, #FF0000);
+  }
+  
+  .text-logo-gradient {
+    background: linear-gradient(to bottom, #FFD700, #FF8C00, #FF0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .border-logo-gradient {
+    border-image: linear-gradient(to bottom, #FFD700, #FF8C00, #FF0000) 1;
+  }
+}
