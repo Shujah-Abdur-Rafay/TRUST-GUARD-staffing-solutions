@@ -1,1 +1,3 @@
+Trust Guard Staffing Solutions is a modern, single-page web application built with React, Vite, and Tailwind CSS. It serves as the digital storefront for a professional security and crowd management company operating across the UK.
 
+The website highlights the company's core services—including event management, mobile response, hospitality security, BDO (Behavioural Detection Officers) deployment, and specialized protection. It features a responsive design with smooth animations via Framer Motion, dedicated service detail pages, recruitment and contact forms, and a dynamic real-time National Threat Level indicator, all designed to showcase their 24/7 security excellence to prospective clients and employees.
